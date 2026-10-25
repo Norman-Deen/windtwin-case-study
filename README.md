@@ -71,10 +71,10 @@ The responsive interface supports desktop and mobile layouts with touch navigati
 The latest viewer tools group branded image capture and supported fullscreen viewing in Overview. Export captures the 3D scene with Nourtin branding, rather than the HTML dashboard.
 
 <p align="center">
-  <img src="windtwin-responsive-2026.webp" width="300" alt="WindTwin monitoring in an emulated portrait mobile viewport">
+  <img src="windtwin-mobile-overview-2026.png" width="300" alt="Current WindTwin Overview panel with camera and fullscreen icons in an emulated portrait mobile viewport">
 </p>
 
-*The mobile image shows browser viewport emulation, not physical-phone performance validation.*
+*The mobile image shows the latest Overview tools in browser viewport emulation, not physical-phone performance validation. The other captures show the same-day library-update candidate before the final toolbar placement.*
 
 ## Performance and experience quality
 
