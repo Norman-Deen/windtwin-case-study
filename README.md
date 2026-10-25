@@ -42,7 +42,7 @@ Selecting a primary turbine connects its 3D identity to condition information, o
 
 ![Primary turbine selected with monitoring charts and condition panels](windtwin-monitoring-2026.webp)
 
-*Turbine values and chart samples are simulated. A monitoring-style LIVE label is not evidence of a connection to physical turbine sensors.*
+*Turbine values and chart samples are simulated and labelled accordingly; WindTwin is not connected to physical turbine sensors.*
 
 ## 3. Follow maintenance as a connected workflow
 
@@ -71,10 +71,10 @@ The responsive interface supports desktop and mobile layouts with touch navigati
 The latest viewer tools group branded image capture and supported fullscreen viewing in Overview. Export captures the 3D scene with Nourtin branding, rather than the HTML dashboard.
 
 <p align="center">
-  <img src="windtwin-mobile-overview-2026.png" width="300" alt="Current WindTwin Overview panel with camera and fullscreen icons in an emulated portrait mobile viewport">
+  <img src="windtwin-mobile-overview-2026.webp" width="300" alt="Current WindTwin Overview panel with camera and fullscreen icons in an emulated portrait mobile viewport">
 </p>
 
-*The mobile image shows the latest Overview tools in browser viewport emulation, not physical-phone performance validation. The other captures show the same-day library-update candidate before the final toolbar placement.*
+*These captures come from the published application on 25 October 2026. The portrait image uses browser viewport emulation; it is not physical-phone performance validation.*
 
 ## Performance and experience quality
 
@@ -86,7 +86,9 @@ One recorded local production-build comparison observed the useful-scene proxy a
 
 Test conditions: Windows, Intel Core i7-5930K, NVIDIA GTX 1060 3GB, headless Chrome 155, 1280 × 800 viewport at DPR 1, local production preview, browser cache disabled, imposed 40 ms latency and 10 Mbit/s download throughput. Driver/shader/OS caches were not reset. This is a single recorded comparison, not a statistically established speedup or a cross-device guarantee.
 
-Verification also covered startup, turbine selection, charts, full-farm show/hide, image export, fullscreen and loading-failure recovery on desktop and an emulated mobile viewport. Physical phones, exhaustive maintenance interactions and long-duration resource testing remain separate validation work.
+A separate reference-PC capacity trial completed a **15-minute fixed-view run with 300 turbines**, reporting **55.66 mean FPS, a 21 ms p95 frame interval and a 95.7 ms maximum interval**. Conditions: the same i7-5930K / GTX 1060 3GB desktop, Windows Chrome 155, HIGH quality, 1280 × 800 at DPR 1, local developer test environment, browser cache disabled, no artificial network throttling, and weather/analytics requests blocked. These are render-loop observations from one device and view; temperature, power, VRAM bytes and sustained manual interaction were not measured. The published experience retains its **100-turbine** default.
+
+Verification also covered startup, turbine selection, chart expansion, full-farm show/hide, image export, fullscreen and loading-failure recovery on desktop and an emulated mobile viewport. A graphics-unavailable browser now receives a clear explanation and retry action. Physical phones and exhaustive maintenance/touch interactions remain separate validation work.
 
 ## My contribution
 
@@ -111,7 +113,7 @@ The project demonstrates **real-time 3D presentation, frontend engineering and c
 
 ---
 
-**About this repository:** A public portfolio presentation containing descriptions and application screenshots. Application source, optimization algorithms, private operational documentation, database configuration and credentials are excluded. Screenshots were captured from the updated application on 25 October 2026 and resized/compressed for presentation. Latest-update capabilities describe the verified development candidate; availability in the live demo depends on deployment.
+**About this repository:** A public portfolio presentation containing descriptions and application screenshots. Application source, optimization algorithms, private operational documentation, database configuration and credentials are excluded. Screenshots were captured from the updated application on 25 October 2026 and resized/compressed for presentation. The update is published in the live demo; fullscreen remains dependent on browser support.
 
 Independent prototype by [Nour Altinawi — Nourtin](https://nourtin.com/). WindTwin is not connected to a physical wind farm and is not intended for operational decisions.
 
